@@ -2,7 +2,7 @@
 
 void CInfra::print()
 {
-	std::cout << "Call print:" << std::endl;
+	std::cout << "Call print: Infra" << std::endl;
 	//getchar();
 }
 
