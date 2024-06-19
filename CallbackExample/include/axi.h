@@ -3,6 +3,7 @@
 
 #include <iostream>
 
+namespace axi{
 class CAXI
 {
 public:
@@ -12,5 +13,6 @@ public:
 
 	}
 };
+}
 
 #endif

@@ -16,7 +16,7 @@ int main(){
 	CBlockB blockB;
 	blockB.print();
 
-	CAXI axi;
+	axi::CAXI axi;
 	axi.print();
     return 0;
 }
