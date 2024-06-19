@@ -1,7 +1,7 @@
 #include "../include/infra.h"
 #include "../include/blockA.h"
 #include "../include/blockB.h"
-
+#include "../include/axi.h"
 
 int main(){
 	CInfra infra;
@@ -15,5 +15,8 @@ int main(){
 
 	CBlockB blockB;
 	blockB.print();
+
+	CAXI axi;
+	axi.print();
     return 0;
 }
