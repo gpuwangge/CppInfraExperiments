@@ -2,6 +2,7 @@
 #include "../include/blockA.h"
 #include "../include/blockB.h"
 #include "../include/axi.h"
+#include "../include/port.h"
 
 int main(){
 	CInfra infra;
@@ -18,5 +19,9 @@ int main(){
 
 	axi::CAXI axi;
 	axi.print();
+
+	CPort port;
+	port.print();
+
     return 0;
 }
